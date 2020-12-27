@@ -9,7 +9,7 @@ JavsScript
 
     var sensorGas = res.child("sensor/gas");
     var valorSensorGas = sensorGas.val()
-    $('#gas').text(valorSensorTemp);
+    $('#gas').text(valorSensorGas);
 
     var sensorAmmonia = res.child("sensor/ammonia");
     var valorSensorAmmonia = sensorAmmonia.val()
